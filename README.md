@@ -21,3 +21,39 @@ We will be using Cyclistic’s historical trip data to analyze and identify tren
 
 The data is organized into rows and columns with ride_id as the unique identifier for each trip. The data includes the following 13 fields:
 
+|**No.** | **variable**        | **description**                                         |
+|------- |---------------------|---------------------------------------------------------|           
+|1       | ride_id             | Unique ID assigned to each ride                         |
+| 2      | rideable_type       | classic, docked, or electric                            |
+| 3      | started_at          | Date and time at the start of trip                      |
+| 4      | ended_at            | Date and time at the end of trip                        |
+| 5      | start_station_name  | Name of the station where the ride journey started from |
+| 6      | start_station_id    | ID of the station where the ride journey started from   |
+| 7      | end_station_name    | Name of the station where the ride trip ended at        |
+| 8      | end_station_id      | ID of the station where the ride trip ended at          |
+| 9      | start_lat           | Latitude of starting station                            |
+| 10     | start_lng           | Longitude of starting station                           |
+| 11     | end_lat             | Latitude of ending station                              |
+| 12     | end_lng             | Longitude of ending station                             |                            
+| 13     | member_casual       | Type of membership of each rider                        |
+
+It is important to note that due to data-privacy issues, we are unable to use riders’ personally identifiable information, meaning we cannot connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
+Additionally, we can ensure the integrity and reliability of the data using the ROCCC test.
+*	The data is reliable. It is reflective of the population.
+*	The data is original. The primary source can be located.
+*	The data is comprehensive. It contains the necessary critical information to solve the task at hand.
+*	The data is current. We are using relevant data from the past 12 months.
+*  The data is cited. It is from a vetted and credible source
+	
+# PROCESS	
+Our first course of action is to download the zip files for the past 12 months, organize them into folders and subfolders using appropriate naming conventions, and convert the formatting of each .CSV file to .XLSX so that we have an original copy of our data.	
+
+Since we have such a large volume of data, using SQL/BigQuery might be more efficient as we continue to process and clean our data. With that being said, I used all 12 files to create tables within our dataset. Then, I aggregated all the tables into a singular table using the following function so that I can process the data as a whole:	
+	
+	
+	
+	
+	
+	
+	
+	
