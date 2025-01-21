@@ -1,7 +1,6 @@
-Cyclistic is a bike-share program based in Chicago, USA.
-They launched in 2016 with the goal of providing a convenient and inclusive transportation option to both locals and visitors. 
-As the company has grown, they have been able to distinguish their two customer types: casual riders (customers who purchase single-ride or full-day passes) and Cyclistic members (customers who purchase annual memberships).
-Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. 
-Although the pricing flexibility helps Cyclistic attract more customers, Lily Moreno, the marketing director, believes that maximizing the number of annual members will be key to future growth. 
-Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a very good chance to convert casual riders into members. 
-She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
+Cyclistic is a bike-share program based in Chicago, USA. Launched in 2016, the program aims to provide an eco-friendly and convenient transportation alternative for Chicago residents and visitors.
+As the company has grown, it has expanded its services and customer base. Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders.
+Although the pricing flexibility helps Cyclistic attract more customers, Lily, the company's marketing director, suggests focusing on converting casual riders into annual members rather than creating a marketing campaign that targets all-new customers.
+She notes that casual riders are already aware of the service but need more incentives to become annual members.
+This case study aims to analyze the usage patterns of Cyclistic's bike-share program and identify strategies to increase annual memberships. 
+The data for this analysis comes from Cyclistic's historical trip data, customer surveys, and financial records.
