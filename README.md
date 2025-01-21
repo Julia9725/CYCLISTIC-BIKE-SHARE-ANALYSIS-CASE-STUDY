@@ -44,6 +44,10 @@ Additionally, we can ensure the integrity and reliability of the data using the 
 *	The data is comprehensive. It contains the necessary critical information to solve the task at hand.
 *	The data is current. We are using relevant data from the past 12 months.
 *  The data is cited. It is from a vetted and credible source
+  
+#### 🔗 Quick Links
+**Data Source:** [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) <br>
+[Note that the data has been made available by Motivate International Inc. under this [<ins>license</ins>](https://www.divvybikes.com/data-license-agreement).]  
 	
 # PROCESS	
 Our first course of action is to download the zip files for the past 12 months, organize them into folders and subfolders using appropriate naming conventions, and convert the formatting of each .CSV file to .XLSX so that we have an original copy of our data.	
